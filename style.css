@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 10px 0;
+}
+
+#header-div {
+    background: #FFCD9E;
+    font-family: 'Inter';
+}
+
+.grid-container {
+    display: grid;
+    padding: 3% 0% 2% 10%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 10px;
+}
+
+.grid-container-2 {
+    display: grid;
+}
+
+#info-para {
+    color: #484848
+}
+
+#look-para {
+    font-weight: bolder;
+    color: #282828
+}
+
+.flex-container {
+    display: flex;
+    gap: 10px;
+    align-content: center;
+}
+
+#email-input {
+    font-family: 'Inter';
+    padding-left: 12px;
+    border: 4px solid #000000;
+    border-radius: 4px;
+    width: 250px;
+    height: 34px;
+
+}
+
+#button-input {
+    background: #282828;
+    color: #FFFFFF;
+    width: 150px;
+    height: 45px;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+#disclamer-para {
+    color: #FFFFFF;
+    font-size: small;
+    padding-left: 4%;
+}
+
+.flex-container-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+img {
+    height: 85%;
+}
+
+#footer-div {
+    background-color: #282828;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    padding-right: 15%;
+}
+
+#footer-left-div {
+    text-align: left;
+}
+
+#footer-right-div {
+    text-align: right;
+}
+
+#email-para {
+    padding-top: 2%;
+}
